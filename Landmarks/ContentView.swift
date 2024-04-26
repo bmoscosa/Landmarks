@@ -11,7 +11,7 @@ struct ContentView: View {
     var body: some View {
         Image("turtlerock")
             .clipShape(Circle())
-        overlay {
+            .overlay {
             Circle().stroke(.white, lineWidth: 4)
     }
         .shadow(radius: 7)
